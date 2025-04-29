@@ -104,16 +104,20 @@ CREATE TABLE Table_Name (
 ```
 
 **Question 1**
---
--- Paste Question 1 here
+![image](https://github.com/user-attachments/assets/219bf5e2-9208-4c6f-8229-e1a9c0b2d545)
 
 ```sql
--- Paste your SQL code below for Question 1
+CREATE TABLE Orders(
+ OrderID INTEGER PRIMARY KEY,
+ OrderDate DATE NOT NULL,
+ CustomerID INTEGER,
+ FOREIGN KEY(CustomerID) REFERENCES CustomerS(CustomerID)
+ );
 ```
 
 **Output:**
 
-![Output1](output.png)
+![image](https://github.com/user-attachments/assets/6709e358-ded9-4297-b80c-2dd36c2d62dc)
 
 **Question 2**
 ---
