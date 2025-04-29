@@ -104,6 +104,7 @@ CREATE TABLE Table_Name (
 ```
 
 **Question 1**
+
 ![image](https://github.com/user-attachments/assets/219bf5e2-9208-4c6f-8229-e1a9c0b2d545)
 
 ```sql
@@ -120,6 +121,7 @@ CREATE TABLE Orders(
 ![image](https://github.com/user-attachments/assets/6709e358-ded9-4297-b80c-2dd36c2d62dc)
 
 **Question 2**
+
 ![image](https://github.com/user-attachments/assets/dcc48243-a82c-41c8-9b34-b26f240bf572)
 
 
@@ -140,6 +142,7 @@ CREATE TABLE item(
 ![image](https://github.com/user-attachments/assets/a2122bb7-2821-40b5-bba7-3a4f365aada3)
 
 **Question 3**
+
 ![image](https://github.com/user-attachments/assets/17220573-306d-44a6-bab5-f2a1b50c420f)
 
 
@@ -158,6 +161,7 @@ VALUES (303, 'Bruce Wayne', '789 Oak St ','Gotham ', 10001);
 
 
 **Question 4**
+
 ![image](https://github.com/user-attachments/assets/f23ccb5d-4675-4b45-a582-732fe6cfc116)
 
 
@@ -193,6 +197,7 @@ ADD COLUMN manager_id INTEGER DEFAULT NULL;
 
 
 **Question 6**
+
 ![image](https://github.com/user-attachments/assets/7bd765ab-79f8-4d55-8869-195293bc88f4)
 
 ```sql
@@ -208,6 +213,7 @@ FROM Discontinued_products;
 
 
 **Question 7**
+
 ![image](https://github.com/user-attachments/assets/0535afec-4e16-4ac3-b3b0-fae3d06529e3)
 
 
@@ -228,6 +234,7 @@ CREATE TABLE products (
 ![image](https://github.com/user-attachments/assets/01b7b738-3e54-4288-8373-d864b6fa6cb2)
 
 **Question 8**
+
 ![image](https://github.com/user-attachments/assets/67b2ca3e-6486-472f-97f2-d5f24a91f944)
 
 
@@ -245,6 +252,7 @@ ADD COLUMN net_salary number;
 
 
 **Question 9**
+
 ![image](https://github.com/user-attachments/assets/2182ae38-63f6-4014-815f-9b8ae9632a5a)
 
 
@@ -265,6 +273,7 @@ CREATE TABLE orders (
 
 
 **Question 10**
+
 ![image](https://github.com/user-attachments/assets/4333c8c6-f8a5-495a-af25-bafd3a25e27b)
 
 
