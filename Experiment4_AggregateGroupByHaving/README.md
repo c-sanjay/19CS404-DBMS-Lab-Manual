@@ -118,7 +118,8 @@ FROM orders;
 SELECT 
   COUNT(*) AS COUNT
 FROM employee
-WHERE age > 32;```
+WHERE age > 32;
+```
 
 **Output:**
 
@@ -126,20 +127,9 @@ WHERE age > 32;```
 
 
 **Question 6**
----
--- Paste Question 6 here
-
-```sql
--- Paste your SQL code below for Question 6
-```
-
-**Output:**
-
-![Output6](output.png)
-
-**Question 7**
 
 ![image](https://github.com/user-attachments/assets/ddb513e9-d0dd-4ccc-a25a-2ca4b7aa5079)
+
 
 ```sql
 SELECT 
@@ -151,42 +141,78 @@ FROM employee;
 
 ![image](https://github.com/user-attachments/assets/a21d4163-6297-456f-9546-8b006ce9f684)
 
+**Question 7**
+
+![image](https://github.com/user-attachments/assets/ff99991a-9ebf-46b3-99da-ad81d2fb0648)
+
+
+```sql
+SELECT 
+  COUNT(*) AS COUNT
+FROM customer
+WHERE city != 'Noida';
+```
+
+**Output:**
+
+![image](https://github.com/user-attachments/assets/ac49ab6c-2e9e-40a5-8688-04cca6a4495c)
+
 
 **Question 8**
----
--- Paste Question 8 here
+
+![image](https://github.com/user-attachments/assets/59e5c8ba-5690-4600-9923-98e88c8c701a)
+
 
 ```sql
--- Paste your SQL code below for Question 8
+SELECT 
+  address, 
+  SUM(salary)
+FROM customer1
+GROUP BY address
+HAVING SUM(salary) > 2000;
 ```
 
 **Output:**
 
-![Output8](output.png)
+![image](https://github.com/user-attachments/assets/07c6142c-3c22-471f-bdcd-437e145239ac)
+
 
 **Question 9**
----
--- Paste Question 9 here
+
+![image](https://github.com/user-attachments/assets/31ce49c3-a895-4667-92a6-163adf798228)
 
 ```sql
--- Paste your SQL code below for Question 9
+SELECT 
+  category_id, 
+  AVG(Price) 
+FROM products
+GROUP BY category_id
+HAVING AVG(price) BETWEEN 10 AND 15;
 ```
 
 **Output:**
 
-![Output9](output.png)
+![image](https://github.com/user-attachments/assets/5515b5eb-9b08-4a5b-bae1-eac3e29bc439)
+
 
 **Question 10**
----
--- Paste Question 10 here
+
+![image](https://github.com/user-attachments/assets/b4b8da44-8deb-4c7b-8b8a-f8a763339bef)
+
 
 ```sql
--- Paste your SQL code below for Question 10
+SELECT 
+  age, 
+  AVG(income)
+FROM employee
+GROUP BY age
+HAVING AVG(income) BETWEEN 300000 AND 500000;
 ```
 
 **Output:**
 
-![Output10](output.png)
+![image](https://github.com/user-attachments/assets/8689ff22-a9cd-4034-99a4-fbf98f2662aa)
+
 
 
 ## RESULT
